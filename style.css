@@ -50,6 +50,7 @@ body{
 
 .round .sign{
     font-size: 100px;
+    color: #ffc83d;
 }
 .text{
     font-size: 35px;
@@ -73,4 +74,12 @@ body{
 .btn .sign{
     color: #ffc83d;
     font-size: 100px;
+}
+
+.hover{
+    background-color: #4a5058;
+}
+
+.click{
+    background-color: #545b66;
 }

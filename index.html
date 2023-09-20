@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./javascript.js"></script> 
+    <script src="./javascript.js" defer></script> 
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico">
+   
 
 
 </head>
@@ -24,12 +22,12 @@
         </div>
     
         <div id="dashbored">
-            <div class="round">
+            <div class="round" id="player">
                 <div class="sign">?</div>
                 <div class="text">Player: 0</div>
             </div>
     
-            <div class="round"> 
+            <div class="round" id="computer"> 
                 <div class="sign">?</div>
                 <div class="text">Computer: 0</div>
             </div>
@@ -40,7 +38,7 @@
                 <div class="sign">✊</div>
             </button>
             
-            <button class="btn" id="papper">
+            <button class="btn" id="paper">
                 <div class="sign">✋</div>
             </button>
     
@@ -49,8 +47,6 @@
             </button>
         </div>
     </div>
-
-
 
 </body>
 </html>
