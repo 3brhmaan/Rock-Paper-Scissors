@@ -22,7 +22,7 @@ function playRound(playerSelection, computerSelection) {
 
 function game(){
 
-    function point(round){
+    function getWinner(round){
         if(round.includes("Won"))return 1;
         else if(round.includes("Lose"))return -1;
         else return 0;
@@ -39,7 +39,7 @@ function game(){
 
         
 
-        let flg =  point(roundResult);
+        let flg =  getWinner(roundResult);
         if(flg === 1)humanScore++;
         else if(flg === -1)computerScore++;
     }
